@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import { assets } from '../assets/assets'
 
 const Navbar = () => {
+  
   const [showMobileMenu, setShowMobileMenu] = useState(false)
   
   useEffect(() => {
@@ -25,7 +26,7 @@ const Navbar = () => {
                 <a href="#Projects" className='cursor-pointer hover:text-gray-400'>Projects</a>
                 <a href="#Testimonials" className='cursor-pointer hover:text-gray-400'>Testimonials</a>
             </ul>
-            <button className='hidden md:block bg-white px-8 py-2 rounded-full'>Sign up</button>
+            <button className='hidden md:block bg-white px-8 py-2 rounded-full cursor-pointer'>Sign up</button>
             <img src={assets.menu_icon} onClick={() => setShowMobileMenu(!showMobileMenu)} alt="" className='md:hidden w-7 cursor-pointer'/>
         </div>
 
