@@ -13,6 +13,14 @@ import project_img_3 from './project_img_3.jpg'
 import project_img_4 from './project_img_4.jpg'
 import project_img_5 from './project_img_5.jpg'
 import project_img_6 from './project_img_6.jpg'
+import project_img_7 from './project_img_7.jpg'
+import project_img_8 from './project_img_8.jpg'
+import project_img_9 from './project_img_9.jpg'
+import project_img_10 from './project_img_10.jpg'
+import project_img_11 from './project_img_11.jpg'
+import project_img_12 from './project_img_12.jpg'
+
+
 import profile_img_1 from './profile_img_1.png'
 import profile_img_2 from './profile_img_2.png'
 import profile_img_3 from './profile_img_3.png'
@@ -41,6 +49,12 @@ export const projectsData = [
       image: project_img_1
     },
     {
+      title: "Light Haven",
+      price: "70,500,000 birr",
+      location: "Addis Abeba",
+      image: project_img_6
+    },
+    {
       title: "Vista Verde",
       price: "39,500,000 birr",
       location: "Hawassa",
@@ -65,11 +79,42 @@ export const projectsData = [
       image: project_img_5
     },
     {
+      title: "Lata Verde",
+      price: "24,000,000 birr",
+      location: "Mekele",
+      image: project_img_9
+    },
+    {
+      title: "Gray Verde",
+      price: "20,000,000 birr",
+      location: "Mekele",
+      image: project_img_7
+    },
+    {
       title: "Serenity Suites",
       price: "20,500,000 birr",
       location: "Gonder",
-      image: project_img_6
+      image: project_img_8
     },
+    {
+      title: "Glass Suites",
+      price: "20,500,000 birr",
+      location: "Adama",
+      image: project_img_10
+    },
+    {
+      title: "Serenity Lover",
+      price: "100,000,000 birr",
+      location: "Bishoftu",
+      image: project_img_11
+    },
+    {
+      title: "Beach Salve",
+      price: "78,000,000 birr",
+      location: "Addis Ababa",
+      image: project_img_12
+    },
+
     
   ];
 
@@ -87,7 +132,7 @@ export const projectsData = [
         title: "UI/UX Designer",
         image: profile_img_2,
         alt: "Portrait of Richard Nelson",
-        rating: 4,
+        rating: 3,
         text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
     },
     {
@@ -95,7 +140,7 @@ export const projectsData = [
         title: "Co-Founder",
         image: profile_img_3,
         alt: "Portrait of James Washington",
-        rating: 5,
+        rating: 4,
         text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
     }
 ];

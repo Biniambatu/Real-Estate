@@ -1,6 +1,7 @@
 import About from "./Components/About"
 import Header from "./Components/Header"
 import Projects from "./Components/Projects"
+import Testimonials from "./Components/Testimonials"
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
      <Header/>
      <About/>
      <Projects/>
+     <Testimonials/>
    </div>
   )
 }
