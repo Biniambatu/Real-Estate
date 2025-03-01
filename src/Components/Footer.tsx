@@ -10,15 +10,15 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div className='pt-10 md:px-20 lg:px-32 bg-gray-900 overflow-hidden' id='Footer'>
+    <div className='pt-10 pl-6 md:px-16 lg:px-32 bg-gray-900 overflow-hidden' id='Footer'>
     <div className='container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-8 text-gray-400'>
       <div className='w-full md:w-1/3'>
         <img src={assets.logo_dark} alt="" />
-        <p className='text-gray-400 mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam tempora 
+        <p className='text-gray-400 mt-4 pt-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsam tempora 
            natus animi nihil sequi fugit libero est dolor.</p>
       </div>
   
-      <div className='w-full md:w-1/5'>
+      <div className='w-full md:w-1/5 pt-4'>
         <h3 className='text-white text-lg font-bold mb-4'>Company</h3>
         <ul className='flex flex-col gap-2'>
           <a href="#Header" className='hover:text-white'>Home</a>
@@ -28,22 +28,22 @@ const Footer = () => {
         </ul>
       </div>
   
-      <div className='w-full md:w-1/5'>
+      <div className='w-full md:w-1/5 pt-5'>
         <h2 className='text-white text-lg font-bold mb-4'>Follow Us</h2>
-        <div className="flex flex-col space-y-3">
-          <a href="#" className="flex items-center space-x-2 text-xl hover:text-white">
+        <div className="flex flex-col space-y-2">
+          <a href="#" className="flex items-center space-x-2 text-md hover:text-white">
             <FaFacebook />
             <span>Facebook</span>
           </a>
-          <a href="#" className="flex items-center space-x-2 text-xl hover:text-white">
+          <a href="#" className="flex items-center space-x-2 text-md hover:text-white">
             <FaTwitter />
             <span>Twitter</span>
           </a>
-          <a href="#" className="flex items-center space-x-2 text-xl hover:text-white">
+          <a href="#" className="flex items-center space-x-2 text-md hover:text-white">
             <FaInstagram />
             <span>Instagram</span>
           </a>
-          <a href="#" className="flex items-center space-x-2 text-xl hover:text-white">
+          <a href="#" className="flex items-center space-x-2 text-md hover:text-white">
             <FaLinkedin />
             <span>LinkedIn</span>
           </a>
